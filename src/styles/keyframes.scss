@@ -1,0 +1,25 @@
+@keyframes elementMovement {
+
+   0% {
+      top: 50%;
+      background-color: $animation-white;
+   }
+
+   25% {
+
+      background-color: $animation-orange;
+   }
+
+   50% {
+      top: 135%;
+   }
+
+   75% {
+      background-color: $animation-yellow;
+   }
+
+   100% {
+      top: 50%;
+      background-color: $animation-white;
+   }
+}

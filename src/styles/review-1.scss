@@ -1,0 +1,67 @@
+body {
+   background-color: #000000;
+   color: $white-color-text;
+   font-family: "PingFang SC";
+}
+
+.wrapper {
+   max-width: 1000px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   max-width: 680px;
+   padding: 0px 20px 0 20px;
+   gap: 30px;
+}
+
+.header {
+   background-color: $header-grey-bg;
+}
+
+.header__logo {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   align-items: center;
+
+   @media screen and (min-width: 768px) {
+      align-items: normal;
+   }
+}
+
+.header__img {
+   max-width: 175px;
+
+   img {
+      width: 100%;
+   }
+}
+
+main {
+   background-color: $main-bg-grey;
+}
+
+.components {
+   padding-bottom: 50px;
+}
+
+.components__title {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   padding-top: 64px;
+   padding-bottom: 25px;
+   align-items: center;
+
+   @media screen and (min-width: 768px) {
+      align-items: normal;
+   }
+}
